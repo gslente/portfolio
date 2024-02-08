@@ -1,0 +1,64 @@
+* {
+    /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #000000 !important;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+#navbar-menu {
+    font-size: 1rem;
+}
+
+#profile {
+    background-color: skyblue;
+    color: white;
+}
+
+#skills {
+    margin-top: -14rem;
+}
+
+.avatar {
+    margin: 2rem 0;
+}
+
+.columns .column {
+    margin-top: 2rem;
+}
+
+.is-black {
+    color: black;
+}
+
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-item a {
+    font-size: 1.10rem;
+}
+
+.section.is-long {
+    padding-bottom: 18rem;
+}
+
+.skill-header {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.skill-icon {
+    font-size: 3.5rem;
+}
