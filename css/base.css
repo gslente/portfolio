@@ -1,64 +1,90 @@
 * {
-    /*border: 1px solid red;*/
-    margin: 0;
-    padding: 0;
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 html {
-    background-color: #FFFFFF;
+  background-color: #070F2B;
+  font-size: 125%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    color: #000000 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+p {
+  color: #FFFFFF !important;
 }
 
 h1 span {
-    display: inline-block;
+  display: inline-block;
+}
+
+#backend-skills,
+#frontend-skills,
+#tools {
+  /*background-color: #535C91;*/
+}
+
+#footer {
+  /*background-color: #9290C3;*/
 }
 
 #navbar-menu {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 #profile {
-    background-color: skyblue;
-    color: white;
+  /*background-color: #1B1A55;*/
 }
 
 #skills {
-    margin-top: -14rem;
+  margin-top: -14rem;
 }
 
 .avatar {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .columns .column {
-    margin-top: 2rem;
-}
-
-.is-black {
-    color: black;
+  margin-top: 2rem;
 }
 
 .navbar {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .navbar-item a {
-    font-size: 1.10rem;
+  font-size: 1.10rem;
+}
+
+.round-button {
+  border-radius: 100% !important;
 }
 
 .section.is-long {
-    padding-bottom: 18rem;
+  padding-bottom: 18rem;
 }
 
 .skill-header {
-    font-size: 1.5rem;
-    font-weight: 800;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .skill-icon {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
+}
+
+.skill-icon-text {
+  margin-top: 0.5rem;
+}
+
+.social-button-icon {
+  color: black;
 }
